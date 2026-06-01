@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "sharp": "^0.34.5",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -32,7 +33,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "generate:assets": "node scripts/generate-assets.js"
   },
   "private": true
 }
